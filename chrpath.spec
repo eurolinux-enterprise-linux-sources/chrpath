@@ -1,7 +1,7 @@
 Summary: Modify rpath of compiled programs
 Name: chrpath
 Version: 0.13
-Release: 12%{?dist}
+Release: 14%{?dist}
 License: GPL+
 Group: Development/Tools
 URL: ftp://ftp.hungry.com/pub/hungry/chrpath/
@@ -51,6 +51,12 @@ rm -rf %{buildroot}
 %{_mandir}/man1/chrpath.1*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.13-14
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.13-13
+- Mass rebuild 2013-12-27
+
 * Mon Apr  8 2013 Petr Machata <pmachata@redhat.com> - 0.13-12
 - Add missing help for -k|--keepgoing option
   (chrpath-0.13-help.patch)
